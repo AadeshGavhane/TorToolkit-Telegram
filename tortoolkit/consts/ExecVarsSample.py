@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "80e35c1e1b302c2134abb6c58c0528e4"
+        API_ID = 5169799
+        BOT_TOKEN = "1804963188:AAEuX9rQm0xcS8xyf_1pDQqIwjIbsAorh4o"
+        BASE_URL_OF_BOT = "http://t.me/tssofficial3_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001414425862]
+        OWNER_ID = 646154439
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://tmlbibgisijhjo:808dcff85807cd32a4342138bd43c0c44784f54406fccbcbc840c7cecef98d0b@ec2-35-171-250-21.compute-1.amazonaws.com:5432/dba4ssp27kva9u"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -65,7 +65,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 1000
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
